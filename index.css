@@ -1,0 +1,30 @@
+/* Center content horizontally + top margin */
+.container{
+  display: flex;
+  flex-direction: column;   /* stack items vertically */
+  align-items: center;      /* center horizontally */
+  margin-top: 40px;
+  gap: 20px;                /* spacing between elements */
+}
+
+/* Fixed size box + default color */
+#color-box{
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  border-radius: 12px;      /* optional: rounded corners */
+  border: 2px solid #333;   /* optional: visible border */
+}
+
+/* Button styling */
+#change-color-btn{
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#change-color-btn:hover{
+  opacity: 0.9;
+}
